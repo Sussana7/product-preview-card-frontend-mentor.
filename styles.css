@@ -1,0 +1,80 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto; /* Centers the container */
+  background: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.image img {
+  width: 100%;
+  max-width: 300px;
+  min-width: 150px; /* Ensures the image doesn't get too small */
+  border-radius: 1rem;
+}
+
+.preview {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  flex: 1; /* Takes up remaining space */
+  text-align: left;
+}
+
+.current-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.original-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  margin-left: 10px; /* Space between prices */
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  margin-top: 5rem;
+  margin-left: -1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+
+button:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+
+button img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
